@@ -46,11 +46,34 @@
           <h2>Fortune Telling</h2>
         </div>
         <div class="card-body bg-white text-dark">
-          <p>Come sit with miss Cleo gyspy something. </p>
+          <h5 class="card-title">Come sit and ask questions to be answered:</h5>
+          <p>Select questions you would like to ask in each category.</p>
 
-          <form class="" action="index.html" method="post">
-            
+          <form>
+            <div class="form-group">
+              <label for="Love"> <b>Love:</b> What can I do to find my soul mate?</label><br>
+              <input type="checkbox" name="Love" value="1">How will I know when I’ve found my soul mate? <br>
+              <input type="checkbox" name="Love" value="2">Which of my personality traits are most likely to attract love?<br>
+              <input type="checkbox" name="Love" value="3">What obstacles must I overcome to find love?<br>
+              <input type="checkbox" name="Love" value="4"> How can I strengthen my relationship with the one I love?<br>
+            </div>
+            <div class="form-group">
+              <label for="Career"> <b>Career:</b> Where am I likely to be in 10 years time?</label><br>
+              <input type="checkbox" name="Career" value="1"> What is preventing me achieving my full career potential?<br>
+              <input type="checkbox" name="Career" value="2"> What can I do to progress my career?<br>
+              <input type="checkbox" name="Career" value="3"> What are my key career weaknesses? <br>
+              <input type="checkbox" name="Career" value="4">  Which skills should I use to progress my career?<br>
+            </div>
+            <div class="form-group">
+              <label for="Friendship"> <b>Friendship:</b> How can I make more friends?</label><br>
+              <input type="checkbox" name="Friendship" value="1">How can I nurture my friendships? <br>
+              <input type="checkbox" name="Friendship" value="2">What can I do to ensure my friendships last a lifetime?<br>
+              <input type="checkbox" name="Friendship" value="3"> What should I do if I want to end a toxic friendship without causing an argument?<br>
+              <input type="checkbox" name="Friendship" value="4"> How can I be a better friend?<br>
+            </div>
+            <button type="submit" class="btn btn-primary" name="button">Get my Reading</button>
           </form>
+
         </div>
       </div>
       <div class="card bg-warning mb-3 result-warn">
