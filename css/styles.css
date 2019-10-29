@@ -1,0 +1,11 @@
+.card-intro {
+  text-align: center;
+}
+
+#tarot_banner {
+  width: 75%;
+}
+
+.result-warn, .result-good, .result-bad {
+  display: none;
+}
